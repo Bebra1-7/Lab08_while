@@ -12,10 +12,10 @@
 //     input = Console.ReadLine();
 // }
 
-// do
-// {
-//     //Тело выполнится мин. 1 раз
-// } while (условие);
+// // do
+// // {
+// //     //Тело выполнится мин. 1 раз
+// // } while (условие);
 
 // int lessonNumber = 1;
 // int totalLessons = 5;
@@ -44,14 +44,14 @@
 
 // Console.WriteLine("Вводите оценки по одной, для завершения введите - 1: ");
 
-// int grade = int.Parse(Console.ReadLine());
-// int max = grade;
-// while (grade != 1)
+// int grade1 = int.Parse(Console.ReadLine());
+// int max = grade1;
+// while (grade1 != 1)
 // {
-//     sum += grade;
+//     sum += grade1;
 //     count++;
-//     grade = int.Parse(Console.ReadLine());
-//     if (grade > max) max = grade;
+//     grade1 = int.Parse(Console.ReadLine());
+//     if (grade1 > max) max = grade1;
 // }
 
 // if (count > 0)
@@ -64,7 +64,7 @@
 // }
 
 // string correctPassword = "qwerty123";
-// int count = 0;
+// int count1 = 0;
 // while (true)
 // {
 //     Console.Write("Введите пароль от личного кабинета: ");
@@ -72,11 +72,11 @@
 
 //     if (password == correctPassword)
 //     {
-//         Console.WriteLine($"Доступ разрешён \nКол-во попыток: {count}");
+//         Console.WriteLine($"Доступ разрешён \nКол-во попыток: {count1}");
 //         break;
 //     }
 //     Console.WriteLine("Неверный пароль, попробуйте снова");
-//     count++;
+//     count1++;
 // }
 
 // string answer;
@@ -160,12 +160,12 @@
 
 // // 6
 
-// int count = 0;
+// int count2 = 0;
 // int inputNum = int.Parse(Console.ReadLine());
 
 // while (inputNum != 0)
 // {
 //     inputNum /= 10;
-//     count++;
+//     count2++;
 // }
-// Console.WriteLine($"Кол-во цифр в числе: {count}");
+// Console.WriteLine($"Кол-во цифр в числе: {count2}");
